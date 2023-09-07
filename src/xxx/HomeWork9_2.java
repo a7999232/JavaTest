@@ -31,7 +31,7 @@ class Account {
 		}
 		account -= son;
 		System.out.println("消費量：" + son + "；庫存量" + account);
-		if (account < 5) {
+		if (account < 2000) {
 			System.out.println("庫存量低，催促生產");
 			notify();
 		}
